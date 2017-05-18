@@ -3,7 +3,7 @@
 
 .start-select {
     height: 100%;
-    background: url("../../img/start-select-bg.jpg") no-repeat;
+    background: url("//shared.ydstatic.com/dict/market/cetResultPredict/imgs/start-select-bg.jpg") no-repeat;
     background-size: cover;
     z-index:999;
     @include  animation(zoom-in 0.5s linear  1);
@@ -15,7 +15,7 @@
         width: 2.99rem;
         left: 0.31rem;
         z-index:999;
-        background: url("../../img/start-select-word.png") no-repeat;
+        background: url("//shared.ydstatic.com/dict/market/cetResultPredict/imgs/start-select-word.png") no-repeat;
         background-size: cover;
     }
 
@@ -38,7 +38,7 @@
 
     .button-4-bg {
         @extend .button-4;
-        background: url("../../img/start-select-4.png") no-repeat;
+        background: url("//shared.ydstatic.com/dict/market/cetResultPredict/imgs/start-select-4.png") no-repeat;
         background-size: cover;
     }
 
@@ -51,7 +51,7 @@
     }
     .button-6-bg {
         @extend .button-6;
-        background: url("../../img/start-select-6.png") no-repeat;
+        background: url("//shared.ydstatic.com/dict/market/cetResultPredict/imgs/start-select-6.png") no-repeat;
         background-size: cover;
     }
 }

@@ -5,7 +5,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: url("../../img/result-bg.jpg") no-repeat;
+    background: url("//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-bg.jpg") no-repeat;
     background-size: 100% 100%;
 
     > * {
@@ -37,7 +37,7 @@
         bottom: 1.16rem;
         width: 1.58rem;
         height: .4rem;
-        background: url("../../img/result-jump.png");
+        background: url("//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-jump.png");
         background-size: 100% 100%;
     }
     .show {
@@ -47,7 +47,7 @@
         height: .375rem;
         
         &.on {
-            background: url("../../img/result-xuanyao.jpg");
+            background: url("//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-xuanyao.jpg");
             background-size: 100% 100%;
         }
     }

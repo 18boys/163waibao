@@ -5,7 +5,7 @@
 .exam {
     position: relative;
     height: 100%;
-    background: url("../../img/exam-bottom-bg.jpg")  no-repeat;
+    background: url("//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-bottom-bg.jpg")  no-repeat;
     background-size: 100% 100% ;
 
     .city {
@@ -93,7 +93,7 @@
             width: .5rem;
             height: .15rem;
             line-height: .15rem;
-            background: url("../../img/exam-blood-middle.png") no-repeat;
+            background: url("//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-blood-middle.png") no-repeat;
             background-size: 100% 100%;
             text-align: center;
             font-size: .12rem;
@@ -138,7 +138,7 @@
             width: 2.2rem;
             height: 1.9rem;
             margin: -.05rem auto 0;
-            background: url("../../img/exam-answer.jpg");
+            background: url("//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-answer.jpg");
             background-size: 2.2rem 1.9rem;
             font-family: 'Chalkduster';
 
@@ -154,7 +154,7 @@
 
                 &.on::after,
                 &.success::after {
-                    background: url("../../img/exam-answer-success-status.jpg");
+                    background: url("//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-answer-success-status.jpg");
                     background-size: .26rem .235rem;
                 }
                 &.fail::after {
@@ -172,7 +172,7 @@
                     width: .26rem;
                     height: .235rem;
                     content: " ";
-                    background: url("../../img/exam-answer-default-status.jpg");
+                    background: url("//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-answer-default-status.jpg");
                     background-size: .26rem .235rem;
                 }
             }
@@ -184,7 +184,7 @@
         bottom: 1.15rem;
         width: 1.62rem;
         height: .42rem;
-        background: url("../../img/exam-btn.jpg");
+        background: url("//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-btn.jpg");
         background-size: 1.62rem .42rem;
     }
     .nextWrapper {
@@ -270,7 +270,7 @@
             left: .48rem;
             width: 2.78rem;
             height: 3.7rem;
-            background: url("../../img/exam-explain-layout.png");
+            background: url("//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-explain-layout.png");
             background-size: 100% 100%;
         }
         .close {

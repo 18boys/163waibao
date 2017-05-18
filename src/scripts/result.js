@@ -29,19 +29,19 @@ Result.prototype = {
             src;
 
         if (score < 250) {
-            src = '../img/result-250.jpg';
+            src = '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-250.jpg';
         } else if (score < 425) {
-            src = '../img/result-425.jpg';
+            src = '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-425.jpg';
         } else if (score < 525) {
-            src = '../img/result-525.jpg';
+            src = '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-525.jpg';
         } else if (score < 600) {
-            src = '../img/result-600.jpg';
+            src = '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-600.jpg';
         } else if (score < 696) {
-            src = '../img/result-696.jpg';
+            src = '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-696.jpg';
         } else {
             score = this.score = 710;
             this.$show.addClass('on');
-            src = '../img/result-710.jpg';
+            src = '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-710.jpg';
         }
 
         this.$score.html(score);
@@ -53,7 +53,7 @@ Result.prototype = {
         $(document).on('click', '.result .jump', function() {
             location.href="https://ke.youdao.com/course/detail/2879?vendor=h5_cof_cet";
         }).on('click', '.result .show', function() {
-            var src = _this.score >= 696 ? '/img/share-word-1.png' : '/img/share-word-2.png';
+            var src = _this.score >= 696 ? '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/share-word-1.png' : '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/share-word-2.png';
             _this.$share_word.attr('src', src);
             _this.$share.removeClass('hide').attr('display', 'block');
             _this._initDialog();

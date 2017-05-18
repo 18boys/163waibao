@@ -1,5 +1,6 @@
 var hogan = require('libs/hogan'),
     utils = require('./utils'),
+    audio = require('./config/audio'),
     tpl = require('./tpl/exam.string');
 
 var questionArr = [
@@ -1308,7 +1309,10 @@ var questionArr = [
     finalQuestionArr = utils.getRandomList(questionArr, 10);
 
 var voiceSourceList = finalQuestionArr.map(function(item) {
-    return '/voice/' + item.question + '.mp3';
+    if(!audio[item.question.replace(/\s/g,'+') + '.mp3']){
+        console.log(item);
+    }
+    return  audio[item.question.replace(/\s/g,'+') + '.mp3'];
 });
 var path = '..';
 var Exam = function(params) {
@@ -1410,10 +1414,10 @@ Exam.prototype = {
 
         // 点击答案解析
         }).on('click', '.exam .music', function() {
-            _this.$music.attr('src', '../img/exam-music-on.png');
+            _this.$music.attr('src', '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-music-on.png');
 
             // 播放音乐
-            _this.soundVoice.src = path + voiceSourceList[_this.index];
+            _this.soundVoice.src = voiceSourceList[_this.index];
             if(userPlay){
                 bgMusic.pause();
             }
@@ -1458,13 +1462,13 @@ Exam.prototype = {
         this.$unhappyPerson.addClass('hide');
         this.$board.removeClass('on');
         this.$nextWrapper.addClass('hide');
-        this.$music.attr('src', '../img/exam-music.png');
+        this.$music.attr('src', '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-music.png');
         this.$explainLayout.addClass('hide');
         this.$city.addClass('hide');
         this.$successNumber.addClass('hide');
         this.$failNumber.addClass('hide');
     },
-    _renderExplain(data) {
+    _renderExplain:function (data) {
         var htmlStr = '' +
             '<li><span>' + data.phonetic[0] + '</span>&nbsp;&nbsp;&nbsp;&nbsp;' + data.phonetic[1] + '</li>\
             <li>' + data.explain + '</li>\
@@ -1476,7 +1480,7 @@ Exam.prototype = {
         this.$explainLayout.find('ul').html(htmlStr);
     },
     // 血槽
-    _renderBlood(flag) {
+    _renderBlood:function _renderBlood(flag) {
         /**
          * true 表示加血
          * false 表示减血

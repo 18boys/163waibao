@@ -1,8 +1,3 @@
 # 163waibao
-
-1、test.qunar.com代理到本地
-http://test.qunar.com/163waibao/html/index.html
-http://localhost/163waibao/html/index.html
-
-2、项目上一层文件夹运行命令:
-sudo  fekit server -cn
+###1.将代码包放置到静态服务器文件目录下,将域名指向根路径下的index.html
+###2.注意使用的ydk需要在youdao的域名下,否则分享功能不好使.

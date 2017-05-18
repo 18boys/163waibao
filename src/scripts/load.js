@@ -2,7 +2,7 @@
  * 选择四六级选项页面
  */
 
-var fileList = require('./config/fileList');
+var img = require('./config/img');
 
 var $load_page = $('.load');
 var $load_blood = $load_page.find('.blood');
@@ -10,15 +10,14 @@ var $load_person = $load_page.find('.person');
 var blood_left = parseFloat($load_blood.css('left'));
 var blood_width = parseFloat($load_blood.css('width'));
 
-
 var PreLoading = function(options) {
 
     // 图片路径
-    this.imgPath = '/img';
+    this.imgPath = './img';
     // 题目语音路径
     this.voicePath = '/voice';
     // 页面imglist集合
-    this.fileList = fileList.concat(options.voiceList||[]);
+    this.fileList = img.concat(options.voiceList || []);
     // 使用配置参数
     this.options = options;
     this.makeLoadPage();
@@ -32,12 +31,14 @@ PreLoading.prototype = {
         var _this = this,
             len = _this.fileList.length,
             fileAry = [];
+        console.log(_this.fileList);
         _this.loadInterval = setInterval(function() {
             if (_this.i < len) {
                 if (_this.fileList[_this.i].search(/mp3/) > -1) {
-                    fileAry[_this.i] = new Audio();
+                    fileAry[_this.i] = new Audio;
                     fileAry[_this.i].onloadedmetadata = _this.loadPage(_this);
-                    fileAry[_this.i].src =  _this.fileList[_this.i];
+                    fileAry[_this.i].src = _this.fileList[_this.i];
+
                 } else {
                     fileAry[_this.i] = new Image();
                     fileAry[_this.i].onload = _this.loadPage(_this);
@@ -62,7 +63,7 @@ PreLoading.prototype = {
     }
 };
 
-function init(cb,voiceList) {
+function init(cb, voiceList) {
     $load_page.addClass('show');
     setTimeout(function() {
         new PreLoading({
@@ -77,7 +78,7 @@ function init(cb,voiceList) {
                 $load_page.addClass('hide').removeClass('show');
                 cb && cb();
             },
-            voiceList:voiceList
+            voiceList: voiceList
         });
     }, 100);
 }

@@ -55,7 +55,7 @@ Page.prototype = {
     },
     _initAudio: function(){
         var _this=this;
-        bgMusic.src='/voice/bg.mp3';
+        bgMusic.src='//ydschool-video.nosdn.127.net/1495089901586h5bgm.mp3';
         $(document).on('click', '.music-bg', function(){
             if($(this).hasClass('music-bg-open')){
                 $(this).addClass('hide');
