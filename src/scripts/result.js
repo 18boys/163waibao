@@ -1,4 +1,4 @@
-var Result = function(score) {
+var Result = function(score, type) {
     this.score = score;
     this.$container = $('.result');
     this.$score = this.$container.find('.score');
@@ -8,14 +8,17 @@ var Result = function(score) {
     this.$share = $('.share');
     this.$share_word = this.$share.find('.share-word');
     this.$princess = $('.princess');
-    this.init(score);
+    this.init(type);
 };
 Result.prototype = {
-    init: function() {
+    init: function(type) {
 
         var _rlog = _rlog || [];
-        _rlog.push(["_trackEvent" ,  "resultsuccessful"]);
+        _rlog.push(['_trackEvent',  'resultsuccessful']);
         this.$container.removeClass('hide');
+        if (type === 6) {
+            this.$container.find('.six').removeClass('hide');
+        }
         this._bindEvent();
         this.render(this.score);
     },
@@ -51,7 +54,7 @@ Result.prototype = {
 
         var _this = this;
         $(document).on('click', '.result .jump', function() {
-            location.href="https://ke.youdao.com/course/detail/2879?vendor=h5_cof_cet";
+            location.href='https://ke.youdao.com/course/detail/2879?vendor=h5_cof_cet';
         }).on('click', '.result .show', function() {
             var src = _this.score >= 696 ? '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/share-word-1.png' : '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/share-word-2.png';
             _this.$share_word.attr('src', src);

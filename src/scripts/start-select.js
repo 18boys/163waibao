@@ -17,7 +17,11 @@ function init(cb) {
 function _initEvent(cb) {
     $(document).on('click', '.start-select .js-button', function() {
         $start_select.addClass('hide');
-        cb && cb();
+        if ($(this).hasClass('button-4-bg')) {
+            cb && cb(4);
+        } else {
+            cb && cb(6);
+        }
     });
 }
 

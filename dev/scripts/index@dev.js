@@ -857,83 +857,83 @@
 
 ;(function(__context){
     var module = {
-        id : "28730111e86be621b58feca37aa59d1f" ,
-        filename : "fileList.js" ,
+        id : "5294f8d69e39dfb2cfd81a5239fc983b" ,
+        filename : "img.js" ,
         exports : {}
     };
     if( !__context.____MODULES ) { __context.____MODULES = {}; }
     var r = (function( exports , module , global ){
 
     module.exports = [
-    "/img/30.png",
-    "/img/exam-answer-default-status.jpg",
-    "/img/exam-answer-success-status.jpg",
-    "/img/exam-answer.jpg",
-    "/img/exam-blood-1.png",
-    "/img/exam-blood-2.png",
-    "/img/exam-blood-middle.png",
-    "/img/exam-bottom-bg.jpg",
-    "/img/exam-btn.jpg",
-    "/img/exam-city.png",
-    "/img/exam-explain-layout.png",
-    "/img/exam-fail-person.png",
-    "/img/exam-music-on.png",
-    "/img/exam-music.png",
-    "/img/exam-next.png",
-    "/img/exam-people.png",
-    "/img/exam-success-person.png",
-    "/img/exam-text.png",
-    "/img/exam-top-bg-1.png",
-    "/img/exam-top-bg-2.png",
-    "/img/exam-top-bg-3.png",
-    "/img/exam-top-bg-4.png",
-    "/img/load-bg.jpg",
-    "/img/load-person.png",
-    "/img/load-process.png",
-    "/img/music-close.png",
-    "/img/music-open.png",
-    "/img/princess-bg.png",
-    "/img/princess-word.png",
-    "/img/result-250.jpg",
-    "/img/result-250.png",
-    "/img/result-425.jpg",
-    "/img/result-425.png",
-    "/img/result-525.jpg",
-    "/img/result-525.png",
-    "/img/result-600.jpg",
-    "/img/result-600.png",
-    "/img/result-696.jpg",
-    "/img/result-696.png",
-    "/img/result-710.jpg",
-    "/img/result-bg.jpg",
-    "/img/result-jump.png",
-    "/img/result-xuanyao.jpg",
-    "/img/selection_background.png",
-    "/img/share-brave.png",
-    "/img/share-word-1.png",
-    "/img/share-word-2.png",
-    "/img/share.jpg",
-    "/img/start-select-4.png",
-    "/img/start-select-6.png",
-    "/img/start-select-bg.jpg",
-    "/img/start-select-logo.png",
-    "/img/start-select-word.png",
-    "/img/start_back.jpg",
-    "/img/start_book1.png",
-    "/img/start_book2.png",
-    "/img/start_book3.png",
-    "/img/start_person.png",
-    "/img/start_word.png"
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/30.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-answer-default-status.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-answer-success-status.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-answer.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-blood-1.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-blood-2.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-blood-middle.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-bottom-bg.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-btn.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-city.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-explain-layout.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-fail-person.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-music-on.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-music.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-next.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-people.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-success-person.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-text.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-top-bg-1.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-top-bg-2.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-top-bg-3.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-top-bg-4.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/load-bg.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/load-person.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/load-process.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/music-close.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/music-open.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/princess-bg.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/princess-word.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-250.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-250.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-425.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-425.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-525.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-525.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-600.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-600.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-696.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-696.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-710.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-bg.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-jump.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-xuanyao.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/selection_background.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/share-brave.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/share-word-1.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/share-word-2.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/share.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/start-select-4.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/start-select-6.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/start-select-bg.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/start-select-logo.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/start-select-word.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/start_back.jpg",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/start_book1.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/start_book2.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/start_book3.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/start_person.png",
+    "//shared.ydstatic.com/dict/market/cetResultPredict/imgs/start_word.png"
 ];
 
     })( module.exports , module , __context );
-    __context.____MODULES[ "28730111e86be621b58feca37aa59d1f" ] = module.exports;
+    __context.____MODULES[ "5294f8d69e39dfb2cfd81a5239fc983b" ] = module.exports;
 })(this);
 
 
 ;(function(__context){
     var module = {
-        id : "7e25f0e265873bd42d70572dbdd3956a" ,
+        id : "dbfe733f55c3c2ab6fe7bae92b065cfc" ,
         filename : "load.js" ,
         exports : {}
     };
@@ -944,7 +944,7 @@
  * 选择四六级选项页面
  */
 
-var fileList =__context.____MODULES['28730111e86be621b58feca37aa59d1f'];
+var img =__context.____MODULES['5294f8d69e39dfb2cfd81a5239fc983b'];
 
 var $load_page = $('.load');
 var $load_blood = $load_page.find('.blood');
@@ -952,15 +952,14 @@ var $load_person = $load_page.find('.person');
 var blood_left = parseFloat($load_blood.css('left'));
 var blood_width = parseFloat($load_blood.css('width'));
 
-
 var PreLoading = function(options) {
 
     // 图片路径
-    this.imgPath = '/img';
+    this.imgPath = './img';
     // 题目语音路径
     this.voicePath = '/voice';
     // 页面imglist集合
-    this.fileList = fileList.concat(options.voiceList||[]);
+    this.fileList = img.concat(options.voiceList || []);
     // 使用配置参数
     this.options = options;
     this.makeLoadPage();
@@ -974,12 +973,14 @@ PreLoading.prototype = {
         var _this = this,
             len = _this.fileList.length,
             fileAry = [];
+        console.log(_this.fileList);
         _this.loadInterval = setInterval(function() {
             if (_this.i < len) {
                 if (_this.fileList[_this.i].search(/mp3/) > -1) {
-                    fileAry[_this.i] = new Audio();
+                    fileAry[_this.i] = new Audio;
                     fileAry[_this.i].onloadedmetadata = _this.loadPage(_this);
-                    fileAry[_this.i].src =  _this.fileList[_this.i];
+                    fileAry[_this.i].src = _this.fileList[_this.i];
+
                 } else {
                     fileAry[_this.i] = new Image();
                     fileAry[_this.i].onload = _this.loadPage(_this);
@@ -1004,7 +1005,7 @@ PreLoading.prototype = {
     }
 };
 
-function init(cb,voiceList) {
+function init(cb, voiceList) {
     $load_page.addClass('show');
     setTimeout(function() {
         new PreLoading({
@@ -1019,7 +1020,7 @@ function init(cb,voiceList) {
                 $load_page.addClass('hide').removeClass('show');
                 cb && cb();
             },
-            voiceList:voiceList
+            voiceList: voiceList
         });
     }, 100);
 }
@@ -1030,13 +1031,13 @@ module.exports = {
 
 
     })( module.exports , module , __context );
-    __context.____MODULES[ "7e25f0e265873bd42d70572dbdd3956a" ] = module.exports;
+    __context.____MODULES[ "dbfe733f55c3c2ab6fe7bae92b065cfc" ] = module.exports;
 })(this);
 
 
 ;(function(__context){
     var module = {
-        id : "4beb89d4b1517fbe8ff53fa47aa8302f" ,
+        id : "63375887ce2e832e4598161460268978" ,
         filename : "start-select.js" ,
         exports : {}
     };
@@ -1062,14 +1063,18 @@ function init(cb) {
 function _initEvent(cb) {
     $(document).on('click', '.start-select .js-button', function() {
         $start_select.addClass('hide');
-        cb && cb();
+        if ($(this).hasClass('button-4-bg')) {
+            cb && cb(4);
+        } else {
+            cb && cb(6);
+        }
     });
 }
 
 module.exports = init;
 
     })( module.exports , module , __context );
-    __context.____MODULES[ "4beb89d4b1517fbe8ff53fa47aa8302f" ] = module.exports;
+    __context.____MODULES[ "63375887ce2e832e4598161460268978" ] = module.exports;
 })(this);
 
 
@@ -1949,6 +1954,73 @@ module.exports={
 
 ;(function(__context){
     var module = {
+        id : "692d826bcbb06d7a48a38753c8e5c150" ,
+        filename : "audio.js" ,
+        exports : {}
+    };
+    if( !__context.____MODULES ) { __context.____MODULES = {}; }
+    var r = (function( exports , module , global ){
+
+    module.exports={
+    "accelerate.mp3":"//ydschool-video.nosdn.127.net/1495089373382accelerate.mp3",
+    "account+for.mp3":"//ydschool-video.nosdn.127.net/1495089386870account+for.mp3",
+    "accurate.mp3":"//ydschool-video.nosdn.127.net/1495089398811accurate.mp3",
+    "adverse.mp3":"//ydschool-video.nosdn.127.net/1495089409118adverse.mp3",
+    "apathy.mp3":"//ydschool-video.nosdn.127.net/1495089419031apathy.mp3",
+    "appeal.mp3":"//ydschool-video.nosdn.127.net/1495089450365appeal.mp3",
+    "assume.mp3":"//ydschool-video.nosdn.127.net/1495089461054assume.mp3",
+    "attach+importance+to.mp3":"//ydschool-video.nosdn.127.net/1495089469103attach+importance+to.mp3",
+    "be+reluctant+to.mp3":"//ydschool-video.nosdn.127.net/1495089478428be+reluctant+to.mp3",
+    "be+subject+to.mp3":"//ydschool-video.nosdn.127.net/1495089487863be+subject+to.mp3",
+    "challenge.mp3":"//ydschool-video.nosdn.127.net/1495089496383challenge.mp3",
+    "complicated.mp3":"//ydschool-video.nosdn.127.net/1495089503415complicated.mp3",
+    "consensus.mp3":"//ydschool-video.nosdn.127.net/1495089514750consensus.mp3",
+    "contribute.mp3":"//ydschool-video.nosdn.127.net/1495090126113contribute.mp3",
+    "controversial.mp3":"//ydschool-video.nosdn.127.net/1495089534576controversial.mp3",
+    "controversy.mp3":"//ydschool-video.nosdn.127.net/1495089543111controversy.mp3",
+    "conventional.mp3":"//ydschool-video.nosdn.127.net/1495089550572conventional.mp3",
+    "critical.mp3":"//ydschool-video.nosdn.127.net/1495089559002critical.mp3",
+    "crucial.mp3":"//ydschool-video.nosdn.127.net/1495089566965crucial.mp3",
+    "curb.mp3":"//ydschool-video.nosdn.127.net/1495089575225curb.mp3",
+    "deter.mp3":"//ydschool-video.nosdn.127.net/1495089586995deter.mp3",
+    "deteriorate.mp3":"//ydschool-video.nosdn.127.net/1495089594953deteriorate.mp3",
+    "diligent.mp3":"//ydschool-video.nosdn.127.net/1495089604163diligent.mp3",
+    "discourage.mp3":"//ydschool-video.nosdn.127.net/1495089613409discourage.mp3",
+    "dramatically.mp3":"//ydschool-video.nosdn.127.net/1495089622417dramatically.mp3",
+    "eliminate.mp3":"//ydschool-video.nosdn.127.net/1495089631431eliminate.mp3",
+    "embrace.mp3":"//ydschool-video.nosdn.127.net/1495089640624embrace.mp3",
+    "ensure.mp3":"//ydschool-video.nosdn.127.net/1495089649121ensure.mp3",
+    "exaggerate.mp3":"//ydschool-video.nosdn.127.net/1495089660807exaggerate.mp3",
+    "facilitate.mp3":"//ydschool-video.nosdn.127.net/1495089670278facilitate.mp3",
+    "hinder.mp3":"//ydschool-video.nosdn.127.net/1495089678329hinder.mp3",
+    "inadequate.mp3":"//ydschool-video.nosdn.127.net/1495089685808inadequate.mp3",
+    "incompetent.mp3":"//ydschool-video.nosdn.127.net/1495089694506incompetent.mp3",
+    "incur.mp3":"//ydschool-video.nosdn.127.net/1495089702360incur.mp3",
+    "indispensable.mp3":"//ydschool-video.nosdn.127.net/1495089710161indispensable.mp3",
+    "interfere.mp3":"//ydschool-video.nosdn.127.net/1495089718460interfere.mp3",
+    "obstacle.mp3":"//ydschool-video.nosdn.127.net/1495089725889obstacle.mp3",
+    "prejudice.mp3":"//ydschool-video.nosdn.127.net/1495089738725prejudice.mp3",
+    "promote.mp3":"//ydschool-video.nosdn.127.net/1495089750355promote.mp3",
+    "qualification.mp3":"//ydschool-video.nosdn.127.net/1495089758216qualification.mp3",
+    "reflect.mp3":"//ydschool-video.nosdn.127.net/1495089767433reflect.mp3",
+    "restrict.mp3":"//ydschool-video.nosdn.127.net/1495089778723restrict.mp3",
+    "stereotyped.mp3":"//ydschool-video.nosdn.127.net/1495089787891stereotyped.mp3",
+    "surging.mp3":"//ydschool-video.nosdn.127.net/1495089800513surging.mp3",
+    "tackle.mp3":"//ydschool-video.nosdn.127.net/1495089813633tackle.mp3",
+    "transform.mp3":"//ydschool-video.nosdn.127.net/1495089823693transform.mp3",
+    "unbiased.mp3":"//ydschool-video.nosdn.127.net/1495089832185unbiased.mp3",
+    "urgent.mp3":"//ydschool-video.nosdn.127.net/1495089840718urgent.mp3",
+    "vary.mp3":"//ydschool-video.nosdn.127.net/1495089848582vary.mp3",
+    "vulnerable.mp3":"//ydschool-video.nosdn.127.net/1495089856547vulnerable.mp3"
+};
+
+    })( module.exports , module , __context );
+    __context.____MODULES[ "692d826bcbb06d7a48a38753c8e5c150" ] = module.exports;
+})(this);
+
+
+;(function(__context){
+    var module = {
         id : "f408ddb58aac012f7a8911684c51f1dd" ,
         filename : "exam.string" ,
         exports : {}
@@ -1967,7 +2039,7 @@ if (typeof module !== "undefined") module.exports = window.QTMPL["exam"];
 
 ;(function(__context){
     var module = {
-        id : "52cf665d95feb780b59dfbaa5ffbd578" ,
+        id : "44243062c9be42cda1539018142b8bda" ,
         filename : "exam.js" ,
         exports : {}
     };
@@ -1976,6 +2048,7 @@ if (typeof module !== "undefined") module.exports = window.QTMPL["exam"];
 
     var hogan =__context.____MODULES['0f6b8ac42acdcab93ab3b4c482af3a39'],
     utils =__context.____MODULES['e2f073b75b481084a559aa9888a6250c'],
+    audio =__context.____MODULES['692d826bcbb06d7a48a38753c8e5c150'],
     tpl =__context.____MODULES['f408ddb58aac012f7a8911684c51f1dd'];
 
 var questionArr = [
@@ -3284,7 +3357,10 @@ var questionArr = [
     finalQuestionArr = utils.getRandomList(questionArr, 10);
 
 var voiceSourceList = finalQuestionArr.map(function(item) {
-    return '/voice/' + item.question + '.mp3';
+    if(!audio[item.question.replace(/\s/g, '+') + '.mp3']){
+        console.log(item);
+    }
+    return  audio[item.question.replace(/\s/g, '+') + '.mp3'];
 });
 var path = '..';
 var Exam = function(params) {
@@ -3331,7 +3407,7 @@ Exam.prototype = {
         this.$container.removeClass('hide');
         this._bindEvent();
         this._renderBlood(425);
-        this.render(0);
+        this.render(this.index);
     },
     render:function(index) {
         var width = 12.5 * (index + 1);
@@ -3386,10 +3462,10 @@ Exam.prototype = {
 
         // 点击答案解析
         }).on('click', '.exam .music', function() {
-            _this.$music.attr('src', '../img/exam-music-on.png');
+            _this.$music.attr('src', '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-music-on.png');
 
             // 播放音乐
-            _this.soundVoice.src = path + voiceSourceList[_this.index];
+            _this.soundVoice.src = voiceSourceList[_this.index];
             if(userPlay){
                 bgMusic.pause();
             }
@@ -3434,13 +3510,13 @@ Exam.prototype = {
         this.$unhappyPerson.addClass('hide');
         this.$board.removeClass('on');
         this.$nextWrapper.addClass('hide');
-        this.$music.attr('src', '../img/exam-music.png');
+        this.$music.attr('src', '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/exam-music.png');
         this.$explainLayout.addClass('hide');
         this.$city.addClass('hide');
         this.$successNumber.addClass('hide');
         this.$failNumber.addClass('hide');
     },
-    _renderExplain(data) {
+    _renderExplain:function (data) {
         var htmlStr = '' +
             '<li><span>' + data.phonetic[0] + '</span>&nbsp;&nbsp;&nbsp;&nbsp;' + data.phonetic[1] + '</li>\
             <li>' + data.explain + '</li>\
@@ -3452,7 +3528,7 @@ Exam.prototype = {
         this.$explainLayout.find('ul').html(htmlStr);
     },
     // 血槽
-    _renderBlood(flag) {
+    _renderBlood:function _renderBlood(flag) {
         /**
          * true 表示加血
          * false 表示减血
@@ -3477,20 +3553,20 @@ module.exports = {
 };
 
     })( module.exports , module , __context );
-    __context.____MODULES[ "52cf665d95feb780b59dfbaa5ffbd578" ] = module.exports;
+    __context.____MODULES[ "44243062c9be42cda1539018142b8bda" ] = module.exports;
 })(this);
 
 
 ;(function(__context){
     var module = {
-        id : "4340404de98a04a2d6bb18d9c77b1955" ,
+        id : "40a88c0dd600f463cfdd423c28cc07c9" ,
         filename : "result.js" ,
         exports : {}
     };
     if( !__context.____MODULES ) { __context.____MODULES = {}; }
     var r = (function( exports , module , global ){
 
-    var Result = function(score) {
+    var Result = function(score, type) {
     this.score = score;
     this.$container = $('.result');
     this.$score = this.$container.find('.score');
@@ -3500,14 +3576,17 @@ module.exports = {
     this.$share = $('.share');
     this.$share_word = this.$share.find('.share-word');
     this.$princess = $('.princess');
-    this.init(score);
+    this.init(type);
 };
 Result.prototype = {
-    init: function() {
+    init: function(type) {
 
         var _rlog = _rlog || [];
-        _rlog.push(["_trackEvent" ,  "resultsuccessful"]);
+        _rlog.push(['_trackEvent',  'resultsuccessful']);
         this.$container.removeClass('hide');
+        if (type === 6) {
+            this.$container.find('.six').removeClass('hide');
+        }
         this._bindEvent();
         this.render(this.score);
     },
@@ -3521,19 +3600,19 @@ Result.prototype = {
             src;
 
         if (score < 250) {
-            src = '../img/result-250.jpg';
+            src = '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-250.jpg';
         } else if (score < 425) {
-            src = '../img/result-425.jpg';
+            src = '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-425.jpg';
         } else if (score < 525) {
-            src = '../img/result-525.jpg';
+            src = '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-525.jpg';
         } else if (score < 600) {
-            src = '../img/result-600.jpg';
+            src = '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-600.jpg';
         } else if (score < 696) {
-            src = '../img/result-696.jpg';
+            src = '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-696.jpg';
         } else {
             score = this.score = 710;
             this.$show.addClass('on');
-            src = '../img/result-710.jpg';
+            src = '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/result-710.jpg';
         }
 
         this.$score.html(score);
@@ -3543,9 +3622,9 @@ Result.prototype = {
 
         var _this = this;
         $(document).on('click', '.result .jump', function() {
-            location.href="https://ke.youdao.com/course/detail/2879?vendor=h5_cof_cet";
+            location.href='https://ke.youdao.com/course/detail/2879?vendor=h5_cof_cet';
         }).on('click', '.result .show', function() {
-            var src = _this.score >= 696 ? '/img/share-word-1.png' : '/img/share-word-2.png';
+            var src = _this.score >= 696 ? '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/share-word-1.png' : '//shared.ydstatic.com/dict/market/cetResultPredict/imgs/share-word-2.png';
             _this.$share_word.attr('src', src);
             _this.$share.removeClass('hide').attr('display', 'block');
             _this._initDialog();
@@ -3557,13 +3636,13 @@ Result.prototype = {
 module.exports = Result;
 
     })( module.exports , module , __context );
-    __context.____MODULES[ "4340404de98a04a2d6bb18d9c77b1955" ] = module.exports;
+    __context.____MODULES[ "40a88c0dd600f463cfdd423c28cc07c9" ] = module.exports;
 })(this);
 
 
 ;(function(__context){
     var module = {
-        id : "bc33a1cc2a09748376292e5742f98927" ,
+        id : "174637ec9abcdb16248462d9817a066c" ,
         filename : "index.js" ,
         exports : {}
     };
@@ -3572,11 +3651,11 @@ module.exports = Result;
 
     
 var FastClick =__context.____MODULES['624b017aec859a48d3c98140b61779f3'];
-var loadPage =__context.____MODULES['7e25f0e265873bd42d70572dbdd3956a'];
-var initSelectPage =__context.____MODULES['4beb89d4b1517fbe8ff53fa47aa8302f'];
+var loadPage =__context.____MODULES['dbfe733f55c3c2ab6fe7bae92b065cfc'];
+var initSelectPage =__context.____MODULES['63375887ce2e832e4598161460268978'];
 var initStart =__context.____MODULES['f42f6db5e3be3a9414fa3afa66bc4f86'];
-var exam =__context.____MODULES['52cf665d95feb780b59dfbaa5ffbd578'];
-var Result =__context.____MODULES['4340404de98a04a2d6bb18d9c77b1955'];
+var exam =__context.____MODULES['44243062c9be42cda1539018142b8bda'];
+var Result =__context.____MODULES['40a88c0dd600f463cfdd423c28cc07c9'];
 
 FastClick(document.body);
 
@@ -3614,20 +3693,20 @@ Page.prototype = {
         loadPage.init(
             function() {
                 initStart(function() {
-                    initSelectPage(function() {
+                    initSelectPage(function(type) {
                         var examer = new exam.Exam({
                             finishHandler: function() {
-                                new Result(examer.score);
+                                new Result(examer.score, type);
                             }
                         });
                     });
-                })
+                });
             }
-        ,voiceList);
+        , voiceList);
     },
     _initAudio: function(){
         var _this=this;
-        bgMusic.src='/voice/bg.mp3';
+        bgMusic.src='//ydschool-video.nosdn.127.net/1495089901586h5bgm.mp3';
         $(document).on('click', '.music-bg', function(){
             if($(this).hasClass('music-bg-open')){
                 $(this).addClass('hide');
@@ -3649,5 +3728,5 @@ new Page();
 
 
     })( module.exports , module , __context );
-    __context.____MODULES[ "bc33a1cc2a09748376292e5742f98927" ] = module.exports;
+    __context.____MODULES[ "174637ec9abcdb16248462d9817a066c" ] = module.exports;
 })(this);

@@ -42,16 +42,16 @@ Page.prototype = {
         loadPage.init(
             function() {
                 initStart(function() {
-                    initSelectPage(function() {
+                    initSelectPage(function(type) {
                         var examer = new exam.Exam({
                             finishHandler: function() {
-                                new Result(examer.score);
+                                new Result(examer.score, type);
                             }
                         });
                     });
-                })
+                });
             }
-        ,voiceList);
+        , voiceList);
     },
     _initAudio: function(){
         var _this=this;

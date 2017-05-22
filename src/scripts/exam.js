@@ -1309,10 +1309,10 @@ var questionArr = [
     finalQuestionArr = utils.getRandomList(questionArr, 10);
 
 var voiceSourceList = finalQuestionArr.map(function(item) {
-    if(!audio[item.question.replace(/\s/g,'+') + '.mp3']){
+    if(!audio[item.question.replace(/\s/g, '+') + '.mp3']){
         console.log(item);
     }
-    return  audio[item.question.replace(/\s/g,'+') + '.mp3'];
+    return  audio[item.question.replace(/\s/g, '+') + '.mp3'];
 });
 var path = '..';
 var Exam = function(params) {
@@ -1359,7 +1359,7 @@ Exam.prototype = {
         this.$container.removeClass('hide');
         this._bindEvent();
         this._renderBlood(425);
-        this.render(0);
+        this.render(this.index);
     },
     render:function(index) {
         var width = 12.5 * (index + 1);
